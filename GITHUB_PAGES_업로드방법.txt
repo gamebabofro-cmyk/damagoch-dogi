@@ -1,0 +1,24 @@
+GitHub Pages 업로드 방법
+
+1. 이 ZIP을 휴대폰에서 압축 해제합니다.
+2. GitHub 저장소에서 초록색 Code 버튼 왼쪽의 + 버튼을 누릅니다.
+3. Upload files를 선택합니다.
+4. 압축을 푼 폴더 안의 파일과 icons 폴더를 모두 선택해 업로드합니다.
+5. ZIP 파일 자체는 올리지 마세요.
+6. Commit changes를 누릅니다.
+7. 저장소 Settings > Pages로 이동합니다.
+8. Source: Deploy from a branch
+9. Branch: main
+10. Folder: /(root)
+11. Save를 누릅니다.
+
+저장소 첫 화면에 아래가 바로 보여야 합니다.
+- index.html
+- manifest.webmanifest
+- service-worker.js
+- launcher-config.json
+- version.example.json
+- .nojekyll
+- icons 폴더
+
+GitHub Pages는 ZIP 파일을 자동으로 풀지 않습니다.
